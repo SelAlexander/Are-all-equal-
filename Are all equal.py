@@ -1,13 +1,10 @@
-first = 361
-second = 50
-third = 128
-if first == second or second == third or first == third :
-    print(first, second, third)
-elif first != second and second == third and first != third :
-    print(second, third)
-elif first == second and second != third and first != third :
-    print(first, second)
-elif first != second and second != third and first == third :
-    print(first, third)
+first = int(input())
+second = int(input())
+third = int(input())
+print(first, second, third)
+if first == second and second == third and first == third :
+    print(3)
+elif first == third or second == first or third == second  :
+    print(2)
 else:
     print(0)
